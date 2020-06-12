@@ -9,6 +9,13 @@ caozha-tp-comment，一个功能强大的评论系统，基于开源的ThinkPHP�
 [http://caozha.com/git/demo/caozha-admin/public/index/comment/index](http://caozha.com/git/demo/caozha-admin/public/index/comment/index)
 
 
+### 其他版本
+
+1、此为thinkphp版本的评论系统，如需要原生PHP写的评论系统，请移步：[caozha-comment](http://https://gitee.com/caozha/caozha-comment)。
+
+2、此源码不含后台，如需要后台，请参考：[caozha-admin](http://https://gitee.com/caozha/caozha-admin)，内有评论的完整后台示例。
+
+
 ### 安装使用
 
 **快速安装**
@@ -42,11 +49,6 @@ caozha-tp-comment，一个功能强大的评论系统，基于开源的ThinkPHP�
 
 打开\Src\app\common.php，修改函数comment_face()，把不需要的表情注释掉就好了，当然也可以添加更多自定义表情。
 
-### 其他版本
-
-1、此为thinkphp版本的评论系统，如需要原生PHP写的评论系统，请移步：[caozha-comment](http://https://gitee.com/caozha/caozha-comment)。
-
-2、此源码不含后台，如需要后台，请参考：[caozha-admin](http://https://gitee.com/caozha/caozha-admin)，内有评论的完整后台示例。
 
 ### 特别鸣谢
 
