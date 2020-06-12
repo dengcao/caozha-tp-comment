@@ -27,15 +27,15 @@ http://caozha.com/git/demo/caozha-admin/public/index/comment/index
 
 评论参数设置：
 
-打开模板：
+修改模板：
 
-\Src\app\index\view\comment\index.html，可以为每篇文章或者需要评论的模块添加唯一ID：
+打开\Src\app\index\view\comment\index.html，可以为每篇文章或者需要评论的模块添加唯一ID：
 
 上面的data-cmtid是评论标识符ID，data-catid是评论标识符分类ID，这两个参数是用来区分文章等评论的，一般情况下使用data-cmtid就足够了。
 
-打开控制器：
+修改控制器：
 
-\Src\app\index\controller\comment.php，找到$cmt_config，可以设置评论每页的数量、验证码、缓存、是否需要审核、是否允许发图片、滚动自动加载、屏蔽词等等。
+打开\Src\app\index\controller\comment.php，找到$cmt_config，可以设置评论每页的数量、验证码、缓存、是否需要审核、是否允许发图片、滚动自动加载、屏蔽词等等。
 
 修改评论表情：
 
