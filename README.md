@@ -21,7 +21,7 @@ caozha-tp-comment，一个功能强大的评论系统，基于开源的ThinkPHP�
 
 4、修改文件/Src/config/database.php，配置您的数据库信息（如果是本地测试，还需要修改文件/Src/.env，本地测试会优先使用此配置文件）。
 
-5、评论访问地址：http://您的域名/index.php/index/comment/index
+5、评论访问地址：http://您的域名/index/comment/index
 
 
 **评论参数设置：**
@@ -42,8 +42,11 @@ caozha-tp-comment，一个功能强大的评论系统，基于开源的ThinkPHP�
 
 打开\Src\app\common.php，修改函数comment_face()，把不需要的表情注释掉就好了，当然也可以添加更多自定义表情。
 
+### 其他版本
 
-（注意：此源码不含后台，如需要后台，请参考：[caozha-admin](http://https://gitee.com/caozha/caozha-admin)，内有评论的完整后台示例。）
+1、此为thinkphp版本的评论系统，如需要原生PHP写的评论系统，请移步：[caozha-comment](http://https://gitee.com/caozha/caozha-comment)。
+
+2、此源码不含后台，如需要后台，请参考：[caozha-admin](http://https://gitee.com/caozha/caozha-admin)，内有评论的完整后台示例。
 
 ### 特别鸣谢
 
@@ -90,7 +93,7 @@ GitHub：https://github.com/cao-zha/caozha-tp-comment
 
 **评论可设置项**
 
-![输入图片说明](https://images.gitee.com/uploads/images/2020/0612/152735_00559f2d_7397417.png "1.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0612/182435_49bc1745_7397417.png "1.png")
 
  
  

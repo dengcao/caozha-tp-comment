@@ -23,7 +23,7 @@ http://caozha.com/git/demo/caozha-admin/public/index/comment/index
 
 4、修改文件/Src/config/database.php，配置您的数据库信息（如果是本地测试，还需要修改文件/Src/.env，本地测试会优先使用此配置文件）。
 
-5、评论访问地址：http://您的域名/index.php/index/comment/index
+5、评论访问地址：http://您的域名/index/comment/index
 
 评论参数设置：
 
