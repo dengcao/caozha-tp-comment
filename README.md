@@ -2,7 +2,7 @@
 
 caozha-tp-comment，一个功能强大的评论系统，基于开源的ThinkPHP开发，特点：易上手，零门槛，界面清爽极简，极便于二次开发。
 
-评论系统已适配电脑、平板和手机等不同客户端。
+可以自动适配电脑、平板和手机等不同客户端。
 
 ### 演示地址
 
@@ -70,12 +70,28 @@ GitHub：https://github.com/cao-zha/caozha-tp-comment
 
 ### 界面预览
 
-**评论界面：**
+
+**评论界面（PC）：**
 
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0611/145140_3e613b5d_7397417.png "16.png")
+
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0611/135914_73eb0310_7397417.png "19.png")
 
+  
+  
+
+**评论界面（手机）：**
+
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0612/152711_77208177_7397417.jpeg "5.jpg")
+
+ 
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0612/152720_633821db_7397417.jpeg "6.jpg")
+ 
 
 **评论可设置项**
 
-![输入图片说明](https://images.gitee.com/uploads/images/2020/0611/143732_98480cc4_7397417.png "18.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0612/152735_00559f2d_7397417.png "1.png")
+
+ 
+ 
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0612/152743_d68c30f1_7397417.png "2.png")
