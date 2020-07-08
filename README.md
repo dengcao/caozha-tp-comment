@@ -91,6 +91,25 @@ location / {
 打开\app\common.php，修改函数comment_face()，把不需要的表情注释掉就好了，当然也可以添加更多自定义表情。
 
 
+### 更新方法
+
+**1.0.0升级到1.0.1的方法：**
+
+1、执行下面MYSQL命令：
+
+ALTER TABLE `cz_comment` CHANGE `addtime` `addtime` DATETIME NULL DEFAULT NULL COMMENT '评论时间';
+
+
+2、将1.0.1版/SRC/目录的源文件覆盖旧版本，注意修改数据库配置。
+
+
+### 更新说明
+
+**版本1.0.1，主要更新：**
+
+兼容了MySQL5.6及以下数据库，在MySQL5.5/5.6上测试，可以正常导入和使用。但为了获取更高的性能，依然建议您使用更高版本的MySQL数据库。
+
+
 ### 特别鸣谢
 
 caozha-tp-comment使用了以下开源代码：

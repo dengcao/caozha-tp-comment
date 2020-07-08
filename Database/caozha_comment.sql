@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- 主机： localhost
--- 生成日期： 2020-06-12 18:38:50
+-- 生成日期： 2020-07-08 14:09:47
 -- 服务器版本： 5.7.26
 -- PHP 版本： 7.3.4
 
@@ -34,7 +34,7 @@ CREATE TABLE `cz_comment` (
   `userid` int(11) DEFAULT '0' COMMENT '用户ID,0为游客',
   `userpic` int(4) DEFAULT NULL COMMENT '游客用户的头像',
   `cmtip` varchar(20) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT '评论IP',
-  `addtime` datetime DEFAULT CURRENT_TIMESTAMP COMMENT '评论时间',
+  `addtime` datetime DEFAULT NULL COMMENT '评论时间',
   `cmtid` varchar(20) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT '评论ID，标识符，用于关联',
   `catid` varchar(20) COLLATE utf8mb4_unicode_ci DEFAULT NULL COMMENT '评论分类ID，标识符，用于关联',
   `parentid` int(11) DEFAULT '0' COMMENT '父ID',
@@ -51,11 +51,11 @@ CREATE TABLE `cz_comment` (
 --
 
 INSERT INTO `cz_comment` (`id`, `cmtname`, `userid`, `userpic`, `cmtip`, `addtime`, `cmtid`, `catid`, `parentid`, `arrparentid`, `cmtcontent`, `like_num`, `bad_num`, `ischeck`, `ishot`) VALUES
-(1, '草札', 0, 24, '127.0.0.1', '2020-06-05 19:01:20', 'act_1', '0', 0, NULL, '这篇文章不错啊，很精彩！', 37, 7, 1, 1),
+(1, '草札', 0, 24, '127.0.0.1', '2020-06-05 19:01:20', 'act_1', '0', 0, NULL, '这篇文章不错啊，很精彩！', 43, 8, 1, 1),
 (2, '张峰', 0, 15, '127.0.0.1', '2020-06-05 19:01:20', 'act_1', '0', 0, NULL, '使用有什么诀窍吗？', 2, 0, 1, 1),
 (3, '小林', 0, 16, '127.0.0.1', '2020-06-05 19:17:26', 'act_1', '0', 1, '1', '对啊，我也觉得还是不错的！[/呲牙]', 0, 1, 1, 0),
 (4, '李露', 0, 22, '127.0.0.1', '2020-06-05 19:17:26', 'act_1', '0', 3, '1,3', '你懂个什么啊！[/憨笑]', 1, 0, 1, 0),
-(5, '大黄', 0, 33, '127.0.0.1', '2020-06-09 02:29:54', 'act_1', '0', 0, '', '[/哈欠]有点困了', 1, 0, 1, 0),
+(5, '大黄', 0, 33, '127.0.0.1', '2020-06-09 02:29:54', 'act_1', '0', 0, '', '[/哈欠]有点困了', 2, 0, 1, 0),
 (6, '测试', 0, 31, '127.0.0.1', '2020-06-09 02:31:13', 'act_1', '0', 5, '5', '[/斜眼笑]那可以去睡了', 0, 1, 1, 0),
 (7, '阿达', 0, 17, '127.0.0.1', '2020-06-09 02:49:56', 'act_1', '0', 0, '', '[/酷]大家好', 2, 1, 1, 0),
 (8, '', 0, 25, '127.0.0.1', '2020-06-09 11:33:57', 'act_1', '0', 6, '5,6', '睡得比狗晚，起得比鸡早[/偷笑]', 0, 1, 1, 0),
