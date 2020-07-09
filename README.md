@@ -52,9 +52,7 @@ caozha-tp-comment，一个功能强大的评论系统，基于开源的ThinkPHP�
 </IfModule>
 
 
-3、如果您使用的是Nginx，伪静态设置为：
-
-location / {
+3、如果您使用的是Nginx，以wdCP和宝塔Linux面板为例，伪静态设置为：
 
     index index.php;
     
@@ -65,8 +63,6 @@ location / {
        break;
        
     }
-    
-}
 
 
 4、在网站运行目录（/public/）下，有两个文件：.htaccess和nginx.htaccess，分别是Apache和Nginx的伪静态文件，您可以直接拿来使用。
