@@ -6,14 +6,14 @@ caozha-tp-comment，一个功能强大的评论系统，基于开源的ThinkPHP�
 
 ### 演示地址
 
-[http://caozha.com/git/demo/caozha-admin/public/index/comment/index](http://caozha.com/git/demo/caozha-admin/public/index/comment/index)
+[http://5300.cn/git/demo/caozha-admin/public/index/comment/index](http://5300.cn/git/demo/caozha-admin/public/index/comment/index)
 
 
 ### 其他版本
 
-1、此为thinkphp版本的评论系统，如需要原生PHP写的评论系统，请移步：[caozha-comment](http://gitee.com/caozha/caozha-comment)。
+1、此为thinkphp版本的评论系统，如需要原生PHP写的评论系统，请移步：[caozha-comment](http://gitee.com/dengzhenhua/caozha-comment)。
 
-2、此源码不含后台，如需要后台，请参考：[caozha-admin](http://gitee.com/caozha/caozha-admin)，内有评论的完整后台示例。
+2、此源码不含后台，如需要后台，请参考：[caozha-admin](http://gitee.com/dengzhenhua/caozha-admin)，内有评论的完整后台示例。
 
 
 ### 安装使用
@@ -118,15 +118,15 @@ ThinkPHP6.0.2、lgyPl
 
 支持本程序，请到Gitee和GitHub给我们点Star！
 
-Gitee：https://gitee.com/caozha/caozha-tp-comment
+Gitee：https://gitee.com/dengzhenhua/caozha-tp-comment
 
-GitHub：https://github.com/cao-zha/caozha-tp-comment
+GitHub：https://github.com/dengcao/caozha-tp-comment
 
-### 关于开发者
+### 关于
 
-开发：草札 www.caozha.com
+开发：[邓草博客 blog.5300.cn](http://blog.5300.cn)
 
-鸣谢：品络 www.pinluo.com  &ensp;  穷店 www.qiongdian.com
+赞助：[品络互联 www.pinluo.com](http://www.pinluo.com)  &ensp;  [AI工具箱 5300.cn](http://5300.cn)  &ensp;  [汉语言文学网 hyywx.com](http://hyywx.com)  &ensp;  [雄马 xiongma.cn](http://xiongma.cn) &ensp;  [优惠券 tm.gs](http://tm.gs)
 
 
 ### 界面预览
